@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import { useWeb3React } from '@web3-react/core'
-import { connector } from '../config/web3/web3'
+import { connector } from '../config/web3'
 
 export default function Home() {
 const { 
